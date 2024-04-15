@@ -1,0 +1,169 @@
+@media screen and (max-width: 350px){
+    #anchor a{
+        font-size: 15px;
+        padding-left: 0px;
+        margin-right: 2px;
+    }
+    .nav_div img{
+        height: 20px;
+        width: 30px;
+        align-items: center;
+    }
+    .about_parent{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 0px;
+    }
+    #header_img{
+        width: 100%;
+        height: 900px;
+    }
+    
+    #header_img h1{
+        font-size: 5x;
+        text-wrap: wrap;
+    }
+}   
+    /* Media queries for screen width <= 350px */
+
+@media screen and (max-width: 350px) {
+
+    #navbar{
+        height: 60px;
+        /* background-color: black; */
+    }
+    #header_img {
+        height: 300px;
+    }
+
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    .nav_div img {
+        height: 50px;
+        width: 60px;
+    }
+
+
+    #header_img h3 {
+        font-size: 20px;
+    }
+
+    .button_child button {
+        margin-left: 20%;
+        height: 40px;
+        width: 120px;
+        font-size: medium;
+    }
+
+    #about_heading {
+        margin-top: 30px;
+        font-size: x-large;
+    }
+
+    .about {
+        margin-left: 50px;
+    }
+
+    .about_img_parent {
+        height: 200px;
+        width: 200px;
+        margin-top: 50px;
+    }
+
+    #about_para {
+        width: 250px;
+        margin-left: 50px;
+    }
+
+    #about_para button {
+        height: 30px;
+        width: 90px;
+        font-size: small;
+    }
+
+    .website_service {
+        height: auto;
+    }
+
+    #service_tag h2 {
+        font-size: x-large;
+    }
+
+    .website_service_child h3,
+    .website_service_child h4,
+    .website_service_child p {
+        font-size: medium;
+    }
+
+    .website_service_parent img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .website_service_child button {
+        height: 30px;
+        width: 90px;
+        font-size: small;
+    }
+
+    #contact_form {
+        padding: 20px;
+    }
+
+    #form input,
+    #form textarea {
+        width: 250px;
+    }
+
+    #form button {
+        height: 30px;
+        width: 60px;
+        font-size: small;
+    }
+
+    footer {
+        font-size: small;
+    }
+
+    .footer_parent i {
+        padding-left: 10px;
+    }
+    .website_service_parent{
+        height: 800px;
+        width: 100%;
+    }
+    .about_img_parent img , .about_img_child img{
+        height: 50px;
+        width: 50px;
+    }
+    .about{
+        width:fit-content ;
+        margin-left: 0px;
+    }
+    .about_parent{
+        width: fit-content;
+        margin-left: 0px;
+    }
+    #contact_form{
+        margin-top: 40px;
+    }
+    .website_service{
+        height: 800px;
+        background-color: white;
+    }
+    #website_service_main{
+        height: 800px;
+        background-color: white;
+    }
+    .website_service_parent button{
+        margin-bottom: 180px;
+    }
+}
+
+
+    
